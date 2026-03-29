@@ -1,0 +1,65 @@
+{
+  "input": {
+    "workflow": {
+      "9": {
+        "inputs": {
+          "filename_prefix": "Flux2-Klein",
+          "images": [
+            "75",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "75": {
+        "inputs": {
+          "text": [
+            "76",
+            0
+          ]
+        },
+        "class_type": "7b34ab90-36f9-45ba-a665-71d418f0df18",
+        "_meta": {
+          "title": "Text to Image (Flux.2 Klein 9B KV)"
+        }
+      },
+      "76": {
+        "inputs": {
+          "filename": "Prowling, a massive Bengal tiger advancing through a rain-slicked cyberpunk alleyway, splashing through puddles, steaming ground fog, pulsating pink and teal neon signs reflecting on wet fur, volumetric god-rays piercing through dense smog, cinematic wide-angle, hyper-realistic textures."
+        },
+        "class_type": "PrimitiveStringMultiline",
+        "_meta": {
+          "title": "Prompt"
+        }
+      },
+      "77": {
+        "inputs": {
+          "text": [
+            "76",
+            0
+          ]
+        },
+        "class_type": "a67caa28-5f85-4917-8396-36004960dd30",
+        "_meta": {
+          "title": "a67caa28-5f85-4917-8396-36004960dd30"
+        }
+      },
+      "78": {
+        "inputs": {
+          "filename_prefix": "Flux2-Klein",
+          "images": [
+            "77",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      }
+    }
+  }
+}
